@@ -306,7 +306,7 @@ body:not(.user-is-tabbing) a:focus {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 5.5rem;
+    height: 6rem;
     width: 5.5rem;
     background-color: var(--pink);
     border-radius: 50%;
@@ -337,13 +337,13 @@ body:not(.user-is-tabbing) a:focus {
 
 .nav {
     display: flex;
-    justify-content: flex-end;
+    justify-content:flex-end;
     padding: var(--gutter-normal) 0;
 }
 
 .nav__items {
     display: flex;
-    list-style: none;
+    list-style: none ;
 }
 
 .nav__item:not(:last-child) {
@@ -370,9 +370,9 @@ body:not(.user-is-tabbing) a:focus {
 
 .nav__link {
     position: relative;
-    display: inline-block;
+    display:inline-block;
     padding: 1rem 0;
-    text-decoration: none;
+    text-decoration:none;
     color: inherit;
     transition: all .2s;
 }
